@@ -1,9 +1,9 @@
-#🧠 Neural Network From Scratch (Build From Scratch – Season I)
+# 🧠 Neural Network From Scratch (Build From Scratch – Season I)
 🚀 Elevator Pitch
 
 A fully functional neural network engine built entirely from scratch using only core Python and NumPy, demonstrating how modern deep learning works under the hood — without relying on any machine learning libraries.
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project implements a feedforward neural network from first principles, including:
 
@@ -21,7 +21,7 @@ The network is trained on the classic XOR problem, proving its ability to learn 
 
 No ML frameworks used. No shortcuts. Just math, code, and fundamentals.
 
-🎯 Motivation (Why This Project?)
+## 🎯 Motivation (Why This Project?)
 
 Modern ML frameworks abstract away the inner workings of neural networks.
 This project was inspired by the desire to:
@@ -34,7 +34,7 @@ Build confidence in systems-level AI engineering
 
 This aligns perfectly with the spirit of Build From Scratch – Season I.
 
-🧱 Architecture Design
+## 🧱 Architecture Design
 Network Architecture
 Input (2)
   ↓
@@ -92,7 +92,7 @@ Input X1	Input X2	Output
 
 This dataset cannot be solved by a linear model — making it ideal for validation.
 
-📈 Results
+## 📈 Results
 
 The training loss decreases consistently
 
@@ -107,7 +107,7 @@ Example output:
  [1]
  [0]]
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 
 Language: Python
 
@@ -119,7 +119,7 @@ Environment: Google Colab
 
 ML Libraries: ❌ None
 
-🧠 What I Learned
+## 🧠 What I Learned
 
 How backpropagation works at a mathematical level
 
@@ -131,7 +131,7 @@ How neural networks learn non-linear decision boundaries
 
 Writing clean, modular system-level code
 
-⚠️ Challenges Faced
+## ⚠️ Challenges Faced
 
 Correctly implementing gradient calculations
 
@@ -143,14 +143,14 @@ Ensuring numerical stability in sigmoid
 
 Each challenge improved my understanding of deep learning internals.
 
-🏆 Accomplishments
+## 🏆 Accomplishments
 
 ✅ Built a neural network engine from scratch
 ✅ No ML frameworks used
 ✅ Solved a non-linear classification task
 ✅ Fully reproducible and explainable
 
-🔮 What’s Next
+## 🔮 What’s Next
 
 Add Softmax + Cross-Entropy loss
 
@@ -162,7 +162,7 @@ Extend to multi-class classification
 
 Build a small autograd engine
 
-📂 How to Run
+## 📂 How to Run
 
 Open the Google Colab notebook
 
@@ -170,10 +170,10 @@ Run cells top-to-bottom
 
 Observe loss convergence and predictions
 
-🧾 License
+## 🧾 License
 
 MIT License — free to learn, modify, and build upon.
 
-📝 Submission Description (Short Version)
+## 📝 Submission Description (Short Version)
 
 This project builds a neural network entirely from scratch using only Python and NumPy. All components — dense layers, activation functions, loss computation, and backpropagation — are manually implemented without any ML libraries. The network is trained on the XOR dataset to demonstrate non-linear learning. The goal is to deeply understand and showcase how modern neural networks work internally, aligning with the spirit of Build From Scratch – Season I.
